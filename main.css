@@ -1,3 +1,6 @@
+body {
+  background-image: linear-gradient(180deg, #FFF3DB 0%, #5C2834 100%);
+}
 #wrapper {
   display: flex;
   min-height: 100vh;
@@ -11,6 +14,9 @@
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.004) 35%, #FFFFFF 35%), url(bg.jpg);
   width: 580px;
   height: 400px;
+  background-position: 0% 0%, center;
+  background-repeat: repeat, repeat;
+  background-size: cover, cover;
 }
 .container:first-child {
   width: 35%;
