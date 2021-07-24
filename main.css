@@ -28,3 +28,9 @@ body {
 .container>.mainarea {
   width: 65%;
 }
+
+@media (max-width: 736px) {
+  #wrapper {
+    padding: 1em;
+  }
+}
