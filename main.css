@@ -24,21 +24,34 @@ body {
 .container>.sidebar {
 	flex: 1 1 35vw;
 	background: center/cover url(bg.jpg);
-	max-width: 200px;
+	max-width: 25em;
+	display: flex;
 }
 .sidebar>.inner {
-  display: flex;
+	display: flex;
 }
 .navigation {
-  align-items: flex-end;
-}
-.navigation>ul>li {
+	align-items: flex-end;
+	display: inline-flex;
+	flex-direction: column;
 	width: 100%;
+	list-style: none;
+}
+.navigation ul {
+	margin: 0;
+	padding: 0;
+}
+.navigation li {
 	background-color: rgba(0, 0, 0, 0.729);
 	color: #FFFFFF;
 	font-size: .65em;
 	font-family: 'Quicksand', sans-serif;
-	padding: 0 .75rem;
+	text-align: center;
+	width: 100%;
+}
+.navigation a {
+	color: white;
+	text-decoration: none;
 }
 .container>.mainarea {
 	flex: 1 1 300px;
