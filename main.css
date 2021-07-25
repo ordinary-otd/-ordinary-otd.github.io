@@ -61,11 +61,11 @@ body {
 	text-decoration: none;
 }
 .topnavi {
-	display: flex;
-	max-width: 100%;
-	margin: unset;
-	padding: unset;
-	list-style: none;
+    display: flex;
+    max-width: 100%;
+    margin: unset;
+    padding: unset;
+    list-style: none;
 }
 .topnavi li {
 	display: flex;
@@ -86,7 +86,9 @@ body {
 .topnavi li a .label {
 	display: none;
 }
-#icon-a24:hover {}
+#icon-a24:hover {
+
+}
 #icon-905:hover {
 	fill: #1DA1F2;
 }
@@ -120,6 +122,6 @@ body {
 		flex: 1 1 65vw;
 	}
 	.topnavi li a {
-		margin-top: .5em;
-	}
+        margin-top: .5em;
+    }
 }
