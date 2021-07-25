@@ -12,13 +12,12 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.main {
-}
+.main {}
 .container {
 	display: flex;
 	background: white;
 	max-width: 100%;
-	height: 400px;
+	min-height: 25rem;
 }
 .container>.sidebar {
 	flex: 1 1 45%;
@@ -52,9 +51,15 @@ body {
 	margin: .1em 0;
 	padding: .35em 0;
 }
+.navigation li:last-of-type {
+	margin-bottom: 1em;
+}
 .navigation a {
 	color: white;
 	text-decoration: none;
+}
+.topnavi {
+
 }
 .container>.mainarea {
 	background: white;
@@ -68,18 +73,20 @@ body {
 .headertext {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.8em;
-	z-index: 10;
 	display: block;
 	text-align: right;
 	position: relative;
-	top: 1rem;
 	letter-spacing: -0.1rem;
+	line-height: .2;
 }
-@media (max-width: 736px) {
+@media (max-width: 499px) {
 	#wrapper {
-		padding: 0.3em;
+		padding: 0.5em;
 	}
 	.headertext {
 		font-size: 150%;
+	}
+	.container>.sidebar {
+		flex: 1 1 60vw;
 	}
 }
