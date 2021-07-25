@@ -120,7 +120,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
 	align-items: center;
-	max-width: 30rem;
+	width: 30rem;
 }
 .mainarea>.inner {
 	padding: .5em;
@@ -141,13 +141,16 @@ body {
 	.main {
 		margin: 0.5em;
 	}
+	.container>.mainarea {
+		max-width: 80vw;
+	}
 }
 @media (max-width: 480px) {
 	.headertext {
 		font-size: 150%;
 	}
 	.container>.sidebar {
-		flex: 1 1 65vw;
+		flex: 1 1 55vw;
 	}
 	.topnavi li a {
 		margin-top: .5em;
