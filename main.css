@@ -14,13 +14,13 @@ body {
 .main {}
 .container {
 	display: flex;
-	background: white;
+	background: #fff;
 	max-width: 100%;
 	min-height: 25rem;
 }
 .container>.sidebar {
 	flex: 1 1 40%;
-	background: center/cover url(bg.jpg);
+	background: center/cover url(img/bg.jpg);
 	display: flex;
 }
 .sidebar>.inner {
@@ -43,8 +43,8 @@ body {
 	padding: 0;
 }
 .navigation li {
-	background-color: rgba(0, 0, 0, 0.729);
-	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
 	font-size: .85em;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
@@ -56,8 +56,12 @@ body {
 	margin-bottom: 1em;
 }
 .navigation a {
-	color: white;
+	color: #fff;
 	text-decoration: none;
+}
+.navigation li:hover {
+	background-color: #000;
+	transition: .2s ease-in-out;
 }
 .topnavi {
 	display: flex;
@@ -80,7 +84,7 @@ body {
 	margin: .7em;
 	height: 100%;
 	width: 100%;
-	fill: white;
+	fill: #fff;
 }
 .topnavi li a .label {
 	display: none;
@@ -100,14 +104,14 @@ body {
 	fill: #1DA1F2;
 }
 .container>.mainarea {
-	background: white;
+	background: #fff;
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
 	align-items: center;
 	width: 30rem;
 }
 .mainarea>.inner {
-	padding: .5em;
+	padding: .75em;
 }
 .headertext {
 	font-family: 'Poppins', sans-serif;
@@ -119,7 +123,7 @@ body {
 	position: relative;
 	letter-spacing: -0.1rem;
 	line-height: .2;
-	text-shadow: 2px 2px coral;
+	text-shadow: 0 1px #ffffffbf, 0 -1px #ffffffbf, 1px 0 #ffffffbf, -1px 0 #ffffffbf, 3px 2px #d8422a;
 }
 @media (max-width: 736px) {
 	.main {
