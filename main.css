@@ -181,4 +181,7 @@ p {
 	.mainarea ul {
 		padding-left: 20px;
 	}
+	.container>.mainarea {
+		font-size: .85em;
+	}
 }
