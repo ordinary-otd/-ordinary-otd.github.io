@@ -154,6 +154,9 @@ body {
 	height: 125px;
 	width: auto;
 }
+p {
+	margin: .75em 0;
+}
 @media (max-width: 736px) {
 	.main {
 		margin: 0.5em;
@@ -171,5 +174,11 @@ body {
 	}
 	.topnavi li a {
 		margin-top: .5em;
+	}
+	p, .mainarea ul {
+		margin: .65em 0;
+	}
+	.mainarea ul {
+		padding-left: 20px;
 	}
 }
