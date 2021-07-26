@@ -51,6 +51,12 @@ body {
 	width: 100%;
 	margin: .1em 0;
 	padding: .35em 0;
+	transition: .2s ease-in-out;
+}
+.navigation li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
 }
 .navigation li:last-of-type {
 	margin-bottom: 1em;
@@ -61,7 +67,6 @@ body {
 }
 .navigation li:hover {
 	background-color: #000;
-	transition: .2s ease-in-out;
 }
 .topnavi {
 	display: flex;
