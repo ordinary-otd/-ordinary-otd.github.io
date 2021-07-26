@@ -16,7 +16,7 @@ body {
 	display: flex;
 	background: #fff;
 	max-width: 100%;
-	min-height: 25rem;
+	height: 28rem;
 }
 .container>.sidebar {
 	flex: 1 1 40%;
@@ -45,7 +45,7 @@ body {
 .navigation li {
 	background-color: rgba(0, 0, 0, 0.75);
 	color: #fff;
-	font-size: .85em;
+	font-size: .83em;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	width: 100%;
@@ -105,13 +105,34 @@ body {
 }
 .container>.mainarea {
 	background: #fff;
+	font-size: .875em;
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
 	align-items: center;
 	width: 30rem;
+	overflow: hidden;
+}
+.mainarea a {
+	color: #000;
+    background: linear-gradient(#f6ae9e70, #f6ae9e70) left bottom no-repeat;
+    background-position: 100% 1em;
+    transition: background 0.2s ease;
+    text-decoration: none;
+}
+.mainarea a:hover {
+	background-position: bottom;
 }
 .mainarea>.inner {
 	padding: .75em;
+}
+.mainarea>.inner img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+.mainarea ul {
+	margin: .75em;
+	padding-left: 25px;
 }
 .headertext {
 	font-family: 'Poppins', sans-serif;
@@ -124,6 +145,14 @@ body {
 	letter-spacing: -0.1rem;
 	line-height: .2;
 	text-shadow: 0 1px #ffffffbf, 0 -1px #ffffffbf, 1px 0 #ffffffbf, -1px 0 #ffffffbf, 3px 2px #d8422a;
+}
+#ena_img img {
+	height: 100px;
+	width: auto;
+}
+#tomoya_gif img {
+	height: 125px;
+	width: auto;
 }
 @media (max-width: 736px) {
 	.main {
