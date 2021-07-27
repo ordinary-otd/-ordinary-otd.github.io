@@ -3,8 +3,6 @@ body {
 	color: #362326;
 	margin: 0;
 	padding: 0;
-	opacity: 0;
-	transition: opacity 1s;
 }
 #wrapper {
 	display: flex;
