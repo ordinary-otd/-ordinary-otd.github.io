@@ -1,7 +1,10 @@
 body {
 	background-image: linear-gradient(180deg, #FFF3DB 0%, #5C2834 100%);
+	color: #362326;
 	margin: 0;
 	padding: 0;
+	opacity: 0;
+	transition: opacity .3s;
 }
 #wrapper {
 	display: flex;
@@ -119,10 +122,10 @@ body {
 }
 .mainarea a {
 	color: #000;
-    background: linear-gradient(#f6ae9e70, #f6ae9e70) left bottom no-repeat;
-    background-position: 100% 1em;
-    transition: background 0.2s ease;
-    text-decoration: none;
+	background: linear-gradient(#f6d79e70, #f6d79e70) left bottom no-repeat;
+	background-position: 100% 1em;
+	transition: background 0.2s ease;
+	text-decoration: none;
 }
 .mainarea a:hover {
 	background-position: bottom;
@@ -133,7 +136,7 @@ body {
 .mainarea>.inner img {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
 .mainarea ul {
 	margin: .75em;
@@ -149,15 +152,18 @@ body {
 	position: relative;
 	letter-spacing: -0.1rem;
 	line-height: .2;
-	text-shadow: 0 1px #ffffffbf, 0 -1px #ffffffbf, 1px 0 #ffffffbf, -1px 0 #ffffffbf, 3px 2px #d8422a;
+	text-shadow: 0 1px #ffffffbf, 0 -1px #ffffffbf, 1px 0 #ffffffbf, -1px 0 #ffffffbf, -1px -1px #ffffffbf, 1px 1px #ffffffbf, 3px 2px #dd6c37;
+	margin: unset;
 }
 #ena_img img {
 	height: 100px;
 	width: auto;
 }
 #tomoya_gif img {
-	height: 125px;
+	height: 150px;
 	width: auto;
+	position: relative;
+	margin-top: -21px;
 }
 p {
 	margin: .75em 0;
