@@ -164,6 +164,7 @@ body {
 	line-height: .2;
 	text-shadow: 0 1px #ffffffbf, 0 -1px #ffffffbf, 1px 0 #ffffffbf, -1px 0 #ffffffbf, -1px -1px #ffffffbf, 1px 1px #ffffffbf, 3px 2px #dd6c37;
 	margin: unset;
+	z-index: 10;
 }
 #ena_img img {
 	height: 100px;
