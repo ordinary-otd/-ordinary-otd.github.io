@@ -1,5 +1,6 @@
 body {
 	background-image: linear-gradient(180deg, #FFF3DB 0%, #5C2834 100%);
+	background-attachment: scroll;
 	color: #362326;
 	margin: 0;
 	padding: 0;
@@ -12,7 +13,9 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.main {}
+.main {
+	transition: opacity 0.625s ease-in-out 0s;
+}
 .container {
 	display: flex;
 	background: #fff;
