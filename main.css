@@ -14,8 +14,8 @@ body {
 	align-items: center;
 }
 .main>.headertext, .main>.container {
-	animation: fadein 1s;
-	-webkit-animation: fadein 1s;
+	animation: fadein 1.2s;
+	-webkit-animation: fadein 1.2s;
 }
 @keyframes fadein {
 	from { opacity: 0; }
@@ -169,6 +169,8 @@ body {
 #ena_img img {
 	height: 100px;
 	width: auto;
+	position: relative;
+	margin-top: -4px;
 }
 #tomoya_gif img {
 	height: 150px;
